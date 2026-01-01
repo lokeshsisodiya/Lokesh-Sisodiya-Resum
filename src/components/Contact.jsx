@@ -26,7 +26,7 @@ export default function Contact() {
           transition={{ duration: 1 }}
           className='text-lg'
         >
-          <strong>Name:</strong> Deepak Sharma
+          <strong>Name:</strong> Lokesh SiSodiya
         </motion.p>
 
         {/* Email */}
@@ -37,11 +37,11 @@ export default function Contact() {
           className="flex justify-center"
         >
           <a
-            href="mailto:deepaksharma16103@gmail.com"
+            href="mailto:Lokeshsisodiya513@gmail.com"
             className="flex items-center gap-2 text-lg hover:text-gray-400"
           >
             <MdEmail className="text-2xl" />
-            deepaksharma16103@gmail.com
+            Lokeshsisodiya513@gmail.com
           </a>
         </motion.div>
 
@@ -73,13 +73,13 @@ export default function Contact() {
           className='pt-6 border-t border-neutral-800'
         >
           <a
-            href="https://github.com/deepaksharma1610"
+            href="https://github.com/lokeshsisodiya"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-lg hover:text-gray-400"
           >
             <FaGithub className="text-2xl" />
-            github.com/deepaksharma1610
+            github.com/github.com/lokeshsisodiya
           </a>
         </motion.div>
 
@@ -91,13 +91,13 @@ export default function Contact() {
           className='pt-2'
         >
           <a
-            href="https://www.linkedin.com/in/deepak-sharma-407647341/"
+            href="https://www.linkedin.com/in/lokesh-sisodiya-a31238270/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-lg hover:text-gray-400"
           >
             <FaLinkedin className="text-2xl" />
-            linkedin.com/in/deepaksharma
+            linkedin.com/in/Lokesh Sisodiya
           </a>
         </motion.div>
       </div>

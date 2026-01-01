@@ -3,33 +3,37 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like HTML,CSS,JavaScript,and React.js. Proficient in state management, API integration, and performance optimization. Knowledgeable in version control (Git/GitHub), deployment (Vercel). My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences. As a fresher, I’m focused on writing clean, responsive, and accessible code while continuously learning and improving my skills through real-world projects. My goal is to contribute to meaningful web experiences while growing as a developer in a collaborative and fast-paced environment.`;
+export const HERO_CONTENT = `I am a passionate Full-Stack Developer with a strong command of both front-end and back-end technologies. I specialize in building robust, scalable, and end-to-end web applications using Angular for dynamic front-end interfaces and Node.js with SQL and MongoDB for powerful back-end services and database management.
 
-export const ABOUT_TEXT = `👋 Hi, I'm Deepak Sharma  
-💻 Frontend Developer | React & Tailwind Enthusiast  
-🚀 Building clean, responsive and user-friendly UIs,  
-I'm a passionate and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, along with hands-on experience in building responsive web interfaces using modern frameworks like React. As a recent graduate, I bring a fresh perspective, a strong willingness to learn, and a commitment to writing clean, efficient code. I'm enthusiastic about creating user-friendly, accessible digital experiences and continuously improving my skills through real-world projects and collaboration.During my academic projects and personal learning journey, I’ve built several responsive websites and small-scale applications that demonstrate my ability to combine clean code with engaging UI/UX. I'm a quick learner, team player, and always eager to explore new tools and technologies in the frontend ecosystem. I’m currently looking for an opportunity where I can contribute to impactful projects, grow as a developer, and collaborate with like-minded professionals in a supportive environment.`;
+My expertise includes crafting responsive user interfaces, designing efficient RESTful APIs, managing application state, and ensuring seamless integration between the client and server. I am proficient in version control with Git/GitHub and deployment processes, aiming to leverage my full-stack skills to create innovative solutions that enhance business performance and deliver outstanding user experiences.
+
+As a developer at Aeologic Technologies, I am focused on writing clean, maintainable, and high-performance code while continuously advancing my skills through real-world projects in AI, IoT, and software development. I am eager to contribute to impactful digital solutions and grow within a collaborative, fast-paced environment..`;
+
+export const ABOUT_TEXT = ` Hi, I'm Lokesh Sisodiya
+💻 Full-Stack Developer | Angular & Node.js Specialist
+ Building end-to-end web applications with clean, scalable code. I craft dynamic user interfaces with Angular and develop robust back-end services using Node.js, SQL, and MongoDB. Passionate about creating seamless digital experiences from database to deployment. Currently looking for an opportunity to contribute to impactful full-stack projects in a collaborative team.,  
+I am a passionate and detail-oriented developer with hands-on experience in building complete web applications. On the frontend, I engineer responsive and engaging user interfaces using Angular. For the backend, I design and develop APIs, manage business logic, and handle data persistence with Node.js, working with both relational (SQL) and NoSQL (MongoDB) databases. My goal is to write clean, efficient, and maintainable code across the entire stack. As a recent graduate, I bring a strong willingness to learn, a fresh perspective, and a commitment to best practices. I am eager to join a supportive environment where I can contribute to meaningful projects and grow as a versatile full-stack developer.`;
 
 export const EXPERIENCES = [
-  `I’m a Frontend Developer with 1 year of professional experience building responsive, user-friendly web applications using HTML, CSS, JavaScript, and modern frameworks like React.js. I focus on writing clean, maintainable code and creating seamless user experiences with attention to detail in design and performance.
+  `I am a Full-Stack Developer with 1 year of professional experience building end-to-end web applications. On the frontend, I specialize in developing dynamic, user-friendly interfaces using Angular, crafting clean and maintainable code. For the backend, I design and build scalable APIs, manage business logic, and handle data persistence using Node.js with both relational (SQL) and NoSQL (MongoDB) databases.
 
-                            Over the past year, I’ve worked on multiple real-world projects involving API integration, state management, component-based architecture, and responsive layouts. I'm comfortable working in team environments, collaborating with designers and backend developers, and using tools like Git, Figma, and VS Code.`
+Over the past year, I have successfully delivered features across the entire stack—from responsive UI components and state management to RESTful API integration and database schema design. I am adept at collaborating in team environments, working closely with designers, product managers, and other developers, and proficiently using tools like Git, Figma, and VS Code to deliver high-quality, performance-optimized solutions.`
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real State Project",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Redux", "Bootstrap"],
+      "This is a dynamic and fully functional Real Estate Listings Platform built with Angular and TypeScript. The application features a modern, responsive interface designed with Bootstrap, allowing users to browse, filter, and view detailed listings of properties. It includes core functionalities such as user authentication, a saved favorites system, and agent contact forms, providing a seamless user experience for property seekers.",
+    technologies: ["HTML", "CSS", "Angular", "Typscrit", "Bootstrap"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React.js"],
+    technologies: ["HTML", "CSS", "Angular"],
   },
   {
     title: "Portfolio Website",
@@ -39,16 +43,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   {
-    title: "NewsApp",
+    title: "Sathi Seeds",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React.js","Bootstrap", "Context-API",],
+      "Sathi Seeds is a government-assigned agricultural portal developed for Aeologic Technologies. As a member of the development team, I contributed to both the frontend and backend, building a comprehensive platform to manage and disseminate critical seed-related information to farmers and stakeholders.",
+    technologies: ["HTML", "CSS", "Angular","Bootstrap", "JavaScript",],
   },
 ];
 
 export const CONTACT = {
-  address: " D8-Morna, Sec - 35, Noida, Uttar Pradesh",
-  phoneNo: " 8272827331 ",
-  email: " deepaksharma16103@gmail.com",
+  address: " Akbarpur Chhata mathura Utterpradesh",
+  phoneNo: " 9897874487 ",
+  email: " Lokeshsisodiya513@gmail.com",
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 // import aboutImg from "../assets/img2.jpg"
-import aboutImg from "../assets/about1.jpg"
+import aboutImg from "../assets/Lokesh.jpeg"
 
 import { ABOUT_TEXT } from '../constants'
 import {motion} from "framer-motion"       

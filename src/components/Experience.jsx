@@ -12,9 +12,9 @@ const Experience = () => {
                 {EXPERIENCES.map((experience, index) => (
                     <div key={index} className="mb-2 flex flex-wrap lg:justify-center">
                         <motion.h6 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className="w-full lg:w-1/4 text-sm font-semibold text-neutral-400">
-                            I’m a Frontend Developer with 1 year of professional experience building responsive, user-friendly web applications using HTML, CSS, JavaScript, and modern frameworks like React.js. I focus on writing clean, maintainable code and creating seamless user experiences with attention to detail in design and performance.
+                            I am a Full-Stack Developer with 1 year of professional experience building end-to-end web applications. On the frontend, I specialize in developing dynamic, user-friendly interfaces using Angular, crafting clean and maintainable code. For the backend, I design and build scalable APIs, manage business logic, and handle data persistence using Node.js with both relational (SQL) and NoSQL (MongoDB) databases.
 
-                            Over the past year, I’ve worked on multiple real-world projects involving API integration, state management, component-based architecture, and responsive layouts. I'm comfortable working in team environments, collaborating with designers and backend developers, and using tools like Git, Figma, and VS Code.
+                            Over the past year, I have successfully delivered features across the entire stack—from responsive UI components and state management to RESTful API integration and database schema design. I am adept at collaborating in team environments, working closely with designers, product managers, and other developers, and proficiently using tools like Git, Figma, and VS Code to deliver high-quality, performance-optimized solutions.
                         </motion.h6>
                     </div>
                 ))}

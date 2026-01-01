@@ -1,6 +1,6 @@
 import { HERO_CONTENT } from "../constants";
 // import profilePic from "../assets/deepakProfile.png";
-import profilePic from "../assets/deepakProfilePic.jpeg";
+import profilePic from "../assets/Lokesh2.jpeg";
 // import profilePic from "../assets/deepakProfilePic1.jpeg";
 
 import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ const Hero = () => {
               animate="visible"
               className="pb-8 sm:pb-12 text-4xl sm:text-5xl md:text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl text-center lg:text-left"
             >
-              Deepak Sharma
+              Lokesh Sisodiya
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -34,7 +34,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl sm:text-3xl md:text-4xl tracking-tight text-transparent text-center lg:text-left"
             >
-              Frontend Developer
+              Full-Stack Developer (Angular & Node.js)
             </motion.span>
             <motion.p
               variants={container(1)}
